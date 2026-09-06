@@ -122,7 +122,7 @@ const cards = [
     name: "Charred Corn Salad with Mint Yogurt",
     descr: "Charred corn tossed in a mint yogurt dressing.",
     price: "₹550",
-    image: "/p23.jpg",
+    image: "/salad.jpg",
     signature: false,
   },
 ]
