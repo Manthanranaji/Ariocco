@@ -7,13 +7,6 @@ import { useRef, useState, useEffect} from 'react'
 const cards = [
   
   {
-    name: "Charred Corn Salad with Mint Yogurt",
-    descr: "Charred corn tossed in a mint yogurt dressing.",
-    price: "₹550",
-    image: "/p23.jpg",
-    signature: false,
-  },
-  {
     name: "Spinach Rice with Miso Glazed Chicken",
     descr: "Miso glazed chicken over spinach rice.",
     price: "₹550",
@@ -28,6 +21,13 @@ const cards = [
     signature: false,
   },
   
+  {
+    name: "Charred Corn Salad with Mint Yogurt",
+    descr: "Charred corn tossed in a mint yogurt dressing.",
+    price: "₹550",
+    image: "/p23.jpg",
+    signature: false,
+  },
   {
     name: "Chicken Pesto with Roasted Pepper Sauce",
     descr: "Grilled chicken with basil pesto and roasted pepper sauce.",
@@ -215,7 +215,7 @@ export default function Home(){
           width={300}
           height={300}
           alt="logo"
-          className="opacity-0 animate-fade-right mx-auto md:h-700 md:w-700"
+          className="opacity-0 animate-fade-left mx-auto md:h-700 md:w-700"
         />
 
         
