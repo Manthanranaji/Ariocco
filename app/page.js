@@ -80,7 +80,7 @@ const cards = [
     name: "Assorted Box Cookies",
     descr: "Box of 3, eggless.",
     price: "₹600",
-    image: "/p16.png",
+    image: "/p16.jpg",
     signature: false,
   },
   {
