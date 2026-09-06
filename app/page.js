@@ -197,56 +197,7 @@ function Card({ name, descr, image, price, signature }) {
         </div>
       </div>
 
-      <footer id="cont" className="bg-[#582B12] mt-44 py-12 px-6 text-center text-[#F4E8D3]">
-  <p className="font-albert-sans font-semibold mb-1 text-2xl text-[#F4E8D3] tracking-wider">
-    ariocco
-  </p>
-  <p className="text-[9px] text-[#E7D7B8] font-albert-sans tracking-widest mb-8">
-    HANDMADE · BAKED FRESH · BOMBAY
-  </p>
-
-  <div className="max-w-sm mx-auto mb-8 space-y-3 text-left">
-    <div className="border-t border-[#F4E8D3]/20 pt-3">
-      <p className="text-xs font-albert-sans font-semibold tracking-wide text-[#F4E8D3]">
-        Bakery timings: 8am – 7pm
-      </p>
-      <p className="text-[11px] font-albert-sans text-[#E7D7B8] mt-1">
-        For all desserts. Order 2–4 hours prior to preferred delivery.
-      </p>
-    </div>
-
-    <div className="border-t border-[#F4E8D3]/20 pt-3">
-      <p className="text-xs font-albert-sans font-semibold tracking-wide text-[#F4E8D3]">
-        Pre-order 24 hours in advance
-      </p>
-      <p className="text-[11px] font-albert-sans text-[#E7D7B8] mt-1">
-        For all bowls, sandos, and meals.
-      </p>
-    </div>
-
-    <div className="border-t border-[#F4E8D3]/20 pt-3">
-      <p className="text-xs font-albert-sans font-semibold tracking-wide text-[#F4E8D3]">
-        Pre-order 24 hours in advance
-      </p>
-      <p className="text-[11px] font-albert-sans text-[#E7D7B8] mt-1">
-        For any custom cakes.
-      </p>
-    </div>
-  </div>
-
-  <div className="flex justify-center gap-6 text-[#F4E8D3] mb-6 font-albert-sans text-sm tracking-widest">
-    <a href="https://instagram.com/ariocco_" target="_blank" rel="noopener noreferrer" className="hover:text-[#E7D7B8] transition-colors">
-      Instagram
-    </a>
-    <a href="https://wa.me/919820275123" target="_blank" rel="noopener noreferrer" className="hover:text-[#E7D7B8] transition-colors">
-      WhatsApp
-    </a>
-  </div>
-
-  <p className="font-albert-sans text-[10px] tracking-widest text-[#F4E8D3]/60">
-    © ariocco · {new Date().getFullYear()}
-  </p>
-</footer>
+      
     </div>
   )
 }
@@ -297,6 +248,56 @@ export default function Home(){
       </div>
 
       </section>
+      <footer id="cont" className="bg-[#582B12] mt-44 py-12 px-6 text-center text-[#F4E8D3]">
+  <p className="font-albert-sans font-semibold mb-1 text-2xl text-[#F4E8D3] tracking-wider">
+    ariocco
+  </p>
+  <p className="text-[9px] text-[#E7D7B8] font-albert-sans tracking-widest mb-8">
+    HANDMADE · BAKED FRESH · BOMBAY
+  </p>
+
+  <div className="max-w-sm mx-auto mb-8 space-y-3 text-left">
+    <div className="border-t border-[#F4E8D3]/20 pt-3">
+      <p className="text-xs font-albert-sans font-semibold tracking-wide text-[#F4E8D3]">
+        Bakery timings: 8am – 7pm
+      </p>
+      <p className="text-[11px] font-albert-sans text-[#E7D7B8] mt-1">
+        For all desserts. Order 2–4 hours prior to preferred delivery.
+      </p>
+    </div>
+
+    <div className="border-t border-[#F4E8D3]/20 pt-3">
+      <p className="text-xs font-albert-sans font-semibold tracking-wide text-[#F4E8D3]">
+        Pre-order 24 hours in advance
+      </p>
+      <p className="text-[11px] font-albert-sans text-[#E7D7B8] mt-1">
+        For all bowls, sandos, and meals.
+      </p>
+    </div>
+
+    <div className="border-t border-[#F4E8D3]/20 pt-3">
+      <p className="text-xs font-albert-sans font-semibold tracking-wide text-[#F4E8D3]">
+        Pre-order 24 hours in advance
+      </p>
+      <p className="text-[11px] font-albert-sans text-[#E7D7B8] mt-1">
+        For any custom cakes.
+      </p>
+    </div>
+  </div>
+
+  <div className="flex justify-center gap-6 text-[#F4E8D3] mb-6 font-albert-sans text-sm tracking-widest">
+    <a href="https://instagram.com/ariocco_" target="_blank" rel="noopener noreferrer" className="hover:text-[#E7D7B8] transition-colors">
+      Instagram
+    </a>
+    <a href="https://wa.me/919820275123" target="_blank" rel="noopener noreferrer" className="hover:text-[#E7D7B8] transition-colors">
+      WhatsApp
+    </a>
+  </div>
+
+  <p className="font-albert-sans text-[10px] tracking-widest text-[#F4E8D3]/60">
+    © ariocco · {new Date().getFullYear()}
+  </p>
+</footer>
     </div>
   )
 }
