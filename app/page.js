@@ -114,7 +114,7 @@ const cards = [
     name: "Chicken Avocado Salad with Toasted Rice",
     descr: "Grilled chicken, avocado, and toasted rice.",
     price: "₹550",
-    image: "",
+    image: "/p28.jpg",
     signature: false,
   },
   
