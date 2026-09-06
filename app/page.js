@@ -34,10 +34,32 @@ const cards = [
     signature: false,
   },
   {
+    name: "Spinach Rice with Miso Glazed Chicken",
+    descr: "Miso glazed chicken over spinach rice.",
+    price: "₹550",
+    image: "/p24.png",
+    signature: true,
+  },
+  {
+    name: "Chicken Avocado Salad with Toasted Rice",
+    descr: "Grilled chicken, avocado, and toasted rice.",
+    price: "₹550",
+    image: "/p28.jpg",
+    signature: false,
+  },
+  
+  {
+    name: "Charred Corn Salad with Mint Yogurt",
+    descr: "Charred corn tossed in a mint yogurt dressing.",
+    price: "₹550",
+    image: "/salad.jpg",
+    signature: false,
+  },
+  {
     name: "Chocolate Chunk Cookies",
     descr: "Box of 3, eggless.",
     price: "₹550",
-    image: "p16.jpg",
+    image: "p29.jpg",
     signature: true,
   },
   {
@@ -58,8 +80,15 @@ const cards = [
     name: "Assorted Box Cookies",
     descr: "Box of 3, eggless.",
     price: "₹600",
-    image: "/p1.png",
+    image: "/p16.png",
     signature: false,
+  },
+  {
+    name: "Tiramisu Tub",
+    descr: "Serves 1-2, eggless.",
+    price: "₹1500",
+    image: "/p27.jpg",
+    signature: true,
   },
   {
     name: "Lemon Meringue Cake",
@@ -89,42 +118,15 @@ const cards = [
     image: "/p26.jpg",
     signature: false,
   },
-  {
-    name: "Tiramisu Tub",
-    descr: "Serves 1-2, eggless.",
-    price: "₹500",
-    image: "/p27.jpg",
-    signature: true,
-  },
+  
   {
     name: "London Cake",
     descr: "Layered chocolate cake with citrus cream filling.",
-    price: "350",
+    price: "₹350",
     image: "/p21.jpg",
     signature: false,
   },
-  {
-    name: "Spinach Rice with Miso Glazed Chicken",
-    descr: "Miso glazed chicken over spinach rice.",
-    price: "₹550",
-    image: "/p24.png",
-    signature: true,
-  },
-  {
-    name: "Chicken Avocado Salad with Toasted Rice",
-    descr: "Grilled chicken, avocado, and toasted rice.",
-    price: "₹550",
-    image: "/p28.jpg",
-    signature: false,
-  },
   
-  {
-    name: "Charred Corn Salad with Mint Yogurt",
-    descr: "Charred corn tossed in a mint yogurt dressing.",
-    price: "₹550",
-    image: "/salad.jpg",
-    signature: false,
-  },
 ]
 
 const WHATSAPP_NUMBER = "919820275123" // e.g. "919999999999", no + or spaces
