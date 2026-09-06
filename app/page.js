@@ -32,14 +32,14 @@ const cards = [
     name: "Chicken Pesto with Roasted Pepper Sauce",
     descr: "Grilled chicken with basil pesto and roasted pepper sauce.",
     price: "₹400",
-    image: "/p5.jpg",
+    image: "/p5.png",
     signature: false,
   },
   {
     name: "Honey Glazed Smoked Tofu",
     descr: "Smoked tofu glazed with honey.",
     price: "₹380",
-    image: "/p7.jpg",
+    image: "/p7.png",
     signature: false,
   },
   {
@@ -53,7 +53,7 @@ const cards = [
     name: "Pulled Pork BBQ",
     descr: "Slow cooked pulled pork in a smoky BBQ sauce.",
     price: "₹420",
-    image: "/p6.jpg",
+    image: "/p6.png",
     signature: false,
   },
   {
@@ -67,7 +67,7 @@ const cards = [
     name: "Matcha White Chocolate Cookies",
     descr: "Box of 3, eggless.",
     price: "₹610",
-    image: "/p4.jpg",
+    image: "/p4.png",
     signature: true,
   },
   {
@@ -81,28 +81,28 @@ const cards = [
     name: "Assorted Box Cookies",
     descr: "Box of 3, eggless.",
     price: "₹600",
-    image: "/p1.jpg",
+    image: "/p1.png",
     signature: false,
   },
   {
     name: "Lemon Meringue Cake",
     descr: "500gm onwards, contains eggs.",
     price: "On request",
-    image: "/p9.jpg",
+    image: "/p9.png",
     signature: false,
   },
   {
     name: "Orange Almond Cake",
     descr: "500gm onwards, contains eggs, gluten free.",
     price: "On request",
-    image: "/p2.jpg",
+    image: "/p2.png",
     signature: false,
   },
   {
     name: "Chocolate Fondant Cake",
     descr: "500gm onwards, contains eggs.",
     price: "On request",
-    image: "/p3.jpg",
+    image: "/p3.png",
     signature: false,
   },
   {
@@ -190,7 +190,7 @@ function Card({ name, descr, image, price, signature }) {
           <div className="w-full md:h-64">
             <img
               src={image}
-              alt={name}
+              
               className="rounded-sm w-full h-full md:object-contain md:rounded-lg object-cover"
             />
           </div>
