@@ -214,7 +214,7 @@ export default function Home(){
           width={300}
           height={300}
           alt="logo"
-          className="opacity-0 animate-fade-left mx-auto md:h-700 md:w-700"
+          className="opacity-0 animate-fade-left mx-auto"
         />
 
         
@@ -223,11 +223,18 @@ export default function Home(){
           alt="sticky toffee"
           height={300}
           width={300}
-          className="-mt-16 md:h-[400px] md:w-[400px]"
+          className="-mt-16 md:mx-auto md:hidden"
+        />
+        <Image
+          src={"/loo.png"}
+          alt="sticky toffee"
+          height={400}
+          width={400}
+          className="-mt-16 md:mx-auto hidden md:flex"
         />
       </section>
 
-      <div className="opacity-0 animate-fade-up [animation-delay:1400ms] flex items-center -mt-52 gap-6 px-4">
+      <div className="opacity-0 animate-fade-up [animation-delay:1400ms] flex items-center -mt-52 md:-mt-20 gap-6 px-4">
   <div className="flex-1 h-px bg-gradient-to-r from-transparent to-[#E7D7B8]" />
 
   <h2 className="text-[#B68E6B] tracking-wider font-chelsea text-sm whitespace-nowrap">
