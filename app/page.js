@@ -5,29 +5,6 @@ import Image from "next/image"
 import { useRef, useState, useEffect} from 'react'
 
 const cards = [
-  
-  {
-    name: "Spinach Rice with Miso Glazed Chicken",
-    descr: "Miso glazed chicken over spinach rice.",
-    price: "₹550",
-    image: "/p24.png",
-    signature: true,
-  },
-  {
-    name: "Chicken Avocado Salad with Toasted Rice",
-    descr: "Grilled chicken, avocado, and toasted rice.",
-    price: "₹550",
-    image: "",
-    signature: false,
-  },
-  
-  {
-    name: "Charred Corn Salad with Mint Yogurt",
-    descr: "Charred corn tossed in a mint yogurt dressing.",
-    price: "₹550",
-    image: "/p23.jpg",
-    signature: false,
-  },
   {
     name: "Chicken Pesto with Roasted Pepper Sauce",
     descr: "Grilled chicken with basil pesto and roasted pepper sauce.",
@@ -124,6 +101,28 @@ const cards = [
     descr: "Layered chocolate cake with citrus cream filling.",
     price: "350",
     image: "/p21.jpg",
+    signature: false,
+  },
+  {
+    name: "Spinach Rice with Miso Glazed Chicken",
+    descr: "Miso glazed chicken over spinach rice.",
+    price: "₹550",
+    image: "/p24.png",
+    signature: true,
+  },
+  {
+    name: "Chicken Avocado Salad with Toasted Rice",
+    descr: "Grilled chicken, avocado, and toasted rice.",
+    price: "₹550",
+    image: "",
+    signature: false,
+  },
+  
+  {
+    name: "Charred Corn Salad with Mint Yogurt",
+    descr: "Charred corn tossed in a mint yogurt dressing.",
+    price: "₹550",
+    image: "/p23.jpg",
     signature: false,
   },
 ]
