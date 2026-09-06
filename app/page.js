@@ -5,8 +5,127 @@ import Image from "next/image"
 import { useRef, useState, useEffect} from 'react'
 
 const cards = [
-  { name: "Sticky Toffee Cookie", descr: "...", image: "/cookies/sticky-toffee.jpg", price: "₹280", signature: true },
-  // ...rest of your menu items
+  
+  {
+    name: "Charred Corn Salad with Mint Yogurt",
+    descr: "Charred corn tossed in a mint yogurt dressing.",
+    price: "₹550",
+    image: "/p23.jpg",
+    signature: false,
+  },
+  {
+    name: "Spinach Rice with Miso Glazed Chicken",
+    descr: "Miso glazed chicken over spinach rice.",
+    price: "₹550",
+    image: "/p24.png",
+    signature: true,
+  },
+  {
+    name: "Chicken Avocado Salad with Toasted Rice",
+    descr: "Grilled chicken, avocado, and toasted rice.",
+    price: "₹550",
+    image: "",
+    signature: false,
+  },
+  
+  {
+    name: "Chicken Pesto with Roasted Pepper Sauce",
+    descr: "Grilled chicken with basil pesto and roasted pepper sauce.",
+    price: "₹400",
+    image: "/p5.jpg",
+    signature: false,
+  },
+  {
+    name: "Honey Glazed Smoked Tofu",
+    descr: "Smoked tofu glazed with honey.",
+    price: "₹380",
+    image: "/p7.jpg",
+    signature: false,
+  },
+  {
+    name: "Spinach Rice with Miso Tofu Mince",
+    descr: "Miso glazed tofu mince over spinach rice.",
+    price: "₹550",
+    image: "",
+    signature: true,
+  },
+  {
+    name: "Pulled Pork BBQ",
+    descr: "Slow cooked pulled pork in a smoky BBQ sauce.",
+    price: "₹420",
+    image: "/p6.jpg",
+    signature: false,
+  },
+  {
+    name: "Chocolate Chunk Cookies",
+    descr: "Box of 3, eggless.",
+    price: "₹550",
+    image: "p16.jpg",
+    signature: true,
+  },
+  {
+    name: "Matcha White Chocolate Cookies",
+    descr: "Box of 3, eggless.",
+    price: "₹610",
+    image: "/p4.jpg",
+    signature: true,
+  },
+  {
+    name: "Sticky Toffee Cookies",
+    descr: "Box of 3, eggless.",
+    price: "₹550",
+    image: "/p25.png",
+    signature: false,
+  },
+  {
+    name: "Assorted Box Cookies",
+    descr: "Box of 3, eggless.",
+    price: "₹600",
+    image: "/p1.jpg",
+    signature: false,
+  },
+  {
+    name: "Lemon Meringue Cake",
+    descr: "500gm onwards, contains eggs.",
+    price: "On request",
+    image: "/p9.jpg",
+    signature: false,
+  },
+  {
+    name: "Orange Almond Cake",
+    descr: "500gm onwards, contains eggs, gluten free.",
+    price: "On request",
+    image: "/p2.jpg",
+    signature: false,
+  },
+  {
+    name: "Chocolate Fondant Cake",
+    descr: "500gm onwards, contains eggs.",
+    price: "On request",
+    image: "/p3.jpg",
+    signature: false,
+  },
+  {
+    name: "Hot Chocolate Cake",
+    descr: "500gm onwards, eggless.",
+    price: "On request",
+    image: "/p26.jpg",
+    signature: false,
+  },
+  {
+    name: "Tiramisu Tub",
+    descr: "Serves 1-2, eggless.",
+    price: "₹500",
+    image: "/p27.jpg",
+    signature: true,
+  },
+  {
+    name: "London Cake",
+    descr: "Layered chocolate cake with citrus cream filling.",
+    price: "350",
+    image: "/p21.jpg",
+    signature: false,
+  },
 ]
 
 const WHATSAPP_NUMBER = "919820275123" // e.g. "919999999999", no + or spaces
@@ -77,6 +196,57 @@ function Card({ name, descr, image, price, signature }) {
           </div>
         </div>
       </div>
+
+      <footer id="cont" className="bg-[#582B12] mt-44 py-12 px-6 text-center text-[#F4E8D3]">
+  <p className="font-albert-sans font-semibold mb-1 text-2xl text-[#F4E8D3] tracking-wider">
+    ariocco
+  </p>
+  <p className="text-[9px] text-[#E7D7B8] font-albert-sans tracking-widest mb-8">
+    HANDMADE · BAKED FRESH · BOMBAY
+  </p>
+
+  <div className="max-w-sm mx-auto mb-8 space-y-3 text-left">
+    <div className="border-t border-[#F4E8D3]/20 pt-3">
+      <p className="text-xs font-albert-sans font-semibold tracking-wide text-[#F4E8D3]">
+        Bakery timings: 8am – 7pm
+      </p>
+      <p className="text-[11px] font-albert-sans text-[#E7D7B8] mt-1">
+        For all desserts. Order 2–4 hours prior to preferred delivery.
+      </p>
+    </div>
+
+    <div className="border-t border-[#F4E8D3]/20 pt-3">
+      <p className="text-xs font-albert-sans font-semibold tracking-wide text-[#F4E8D3]">
+        Pre-order 24 hours in advance
+      </p>
+      <p className="text-[11px] font-albert-sans text-[#E7D7B8] mt-1">
+        For all bowls, sandos, and meals.
+      </p>
+    </div>
+
+    <div className="border-t border-[#F4E8D3]/20 pt-3">
+      <p className="text-xs font-albert-sans font-semibold tracking-wide text-[#F4E8D3]">
+        Pre-order 24 hours in advance
+      </p>
+      <p className="text-[11px] font-albert-sans text-[#E7D7B8] mt-1">
+        For any custom cakes.
+      </p>
+    </div>
+  </div>
+
+  <div className="flex justify-center gap-6 text-[#F4E8D3] mb-6 font-albert-sans text-sm tracking-widest">
+    <a href="https://instagram.com/ariocco_" target="_blank" rel="noopener noreferrer" className="hover:text-[#E7D7B8] transition-colors">
+      Instagram
+    </a>
+    <a href="https://wa.me/919820275123" target="_blank" rel="noopener noreferrer" className="hover:text-[#E7D7B8] transition-colors">
+      WhatsApp
+    </a>
+  </div>
+
+  <p className="font-albert-sans text-[10px] tracking-widest text-[#F4E8D3]/60">
+    © ariocco · {new Date().getFullYear()}
+  </p>
+</footer>
     </div>
   )
 }
@@ -118,7 +288,7 @@ export default function Home(){
 </div>
       
 
-      <section id="fav" className="w-full h-fit px-4 py-16 -mt-12 flex flex-col md:mt-24">
+      <section id="fav" className="w-full h-fit px-4 py-16 -mt-12 flex flex-col md:mt-20">
 
       <div>
         {cards.map((card) => (
