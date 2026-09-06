@@ -215,7 +215,7 @@ export default function Home(){
           width={300}
           height={300}
           alt="logo"
-          className="mx-auto md:h-700 md:w-700"
+          className="opacity-0 animate-fade-right mx-auto md:h-700 md:w-700"
         />
 
         
