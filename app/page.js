@@ -238,7 +238,7 @@ export default function Home(){
 </div>
       
 
-      <section id="fav" className="w-full h-fit px-4 py-16 -mt-12 flex flex-col md:mt-20">
+      <section id="fav" className="w-full h-fit px-4 py-16 -mt-4 flex flex-col md:mt-20">
 
       <div>
         {cards.map((card) => (
